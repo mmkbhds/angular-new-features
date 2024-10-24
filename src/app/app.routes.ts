@@ -38,4 +38,5 @@ export const routes: Routes = [
   { path: 'signals/basic', component: AppCounterComponent },
   { path: 'signals/midlevel', component: TodoListComponent },
   { path: 'signals/advance', component: ShoppingCartComponent },
+  { path: 'signals/concepts', component: SignalsIntroComponent },
 ];
