@@ -1,19 +1,7 @@
 <!-- app-navigation.component.html -->
-<div>
-  <div>
-    <button (click)="login()">Click here to Login</button>
-
-    <button (click)="logout()">Click here to Logout</button>
-    
-  </div>
-</div>
 <nav>
     <ul>
-      <li><a routerLink="/home">Home</a></li>
-      <li><a routerLink="/profile">Profile</a></li>
-      <li><a [routerLink]="['/login']" routerLinkActive="router-link-active" >Login</a></li>
-      <li><a [routerLink]="['/profile/edit/50']" routerLinkActive="router-link-active" >Profile Edit</a></li>
-      <li><a routerLink="signals">Signals</a>
+         <li><a routerLink="signals">Signals</a>
         <ol>
           <li><a routerLink="signals/basic">Basic</a></li>
           <li><a routerLink="signals/midlevel">Mid Level</a></li>
